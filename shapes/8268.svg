@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="34.2px" width="28.05px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.95, 3.6)">
+    <path d="M24.75 0.85 Q30.4 22.5 12.05 30.6 -6.35 22.5 -0.6 0.85 7.25 2.65 12.05 -3.6 16.8 2.65 24.75 0.85" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M23.65 1.9 Q28.85 21.75 12.05 29.15 -4.8 21.75 0.45 1.9 7.65 3.55 12.05 -2.15 16.4 3.55 23.65 1.9" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <pattern height="27" id="PatternID_8268_1" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 0.0, 0.0)" patternUnits="userSpaceOnUse" viewBox="0 0 23 27" width="23">
+      <image height="27" width="23" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAbCAYAAACX6BTbAAAFEUlEQVR42q1WZ0ieVxT+1BhRCSKKqwEH7rhHiBtFccUqGhGb4MSFe6E/0rhw723ce2scUFw4aGiKCC3EH0IhbSH+KP1REkILpe3peQ4oNKTFFD+43Pf73nuf89znPOfcT6H4iE9sbKxpRUWFsuK6P8nJybZtbW0vnz9/XnitwAcHB4FVVVU/TE5O0srKyp8lJSWfE5HalTbzwpvvLz4/P9fY3t52HR8f7x8cHPxtenqa5ubmaG9vj9bW1mhhYWH/+Pg4mvfpfwBP8/JLfn5+UmFh4Tc8Zru7u8eY5VJjY+O3Y2Njv8/MzNDQ0BAY0+bmJh0dHdHW1hY9e/aMFhcXaXR09Pva2tovlpeXJ3jvVF1d3ZdPnjxZZdibAl5ZWTnFi6inpweMCMfv7e0l3kBLS0s0OztLh4eHAspsaWdnh168eEG7u7vEp6ONjQ0Jurq6KqcaHh5+ExkZaaLgl5o1NTXHIyMj1N/fTwMDAxLEy8uLrK2t6eHDh9TR0UFWVlbk6elJPj4+BImqq6vJ29uboqKiCHsvSGBmGf/KysryU/Aiq/r6+lddXV1y/KdPnwpjgEG+O3fuELuElJWVSVdXl8zNzQW4qKiILC0tZUAuDEiFvRMTE8QSJSqKi4t9Gfjn9vZ26uzslBdg4O/vT2pqauTi4iKJRCBtbW0JhpOw38nIyIh8fX1FLkgC1hh4TkxMLFVkZ2d/yovf9vX1iSRgDnAuGAG0sLDAQlJXVxcwd3d3KigoELlcXV1Flv39fWEO1sgZAvD7GkVMTEw8Z/gdmAMcicRLAAAcQ0NDQ2YtLS1ydnYmDw8PcnR0lMAJCQmS1PX1ddkHByEIE2pWsHbxLMe71tZWSSTA2duiKXQG6I0bN2TW0dER5tDZzs6O9PT0iGUV4AtnXczMvFnBkUOZ9ZumpiZCADgG0jQ0NFBERASFhYVReHi45ABzSkoKsRMoLS1NZsgJK4Lx/Py8AGNm3GqFvb29K8vyGo5oaWkhuAbs4XUECgoKosDAQAoJCZHksYzEdSF5wAmRPAwU29TUlOQLVi0tLS1UnJ2d6fLil2AAF7At5QT4DstBDhMTEzI0NCRVVVWxKJLJpIh7jLAGGAYIISBI8d4oqdD09PRFZi/MMUMWgHMnJAMDA8rIyJDiAXBcXByVl5fT/fv3ifcJOOwLl4A1FxBw3nLOLAWcF2dCY+jOPUXYI7mQxM/PT2QB+OPHjykvL4+SkpJkhl0hIeRAlYI1NGfJvjo5OVEVcLaSaWpq6i/cgCSRkCczM/PSghcjODiY7t27J25BcaFaucmJQ7ifSLFB0pycnOJ/tEnOfj/3GJEFlYrkAVBJSUlm6A1JcBonJyexJLwOF0EKMIdLcnNzX3NjM3q/B5uytX7C0VHat2/fvvQ5Bp5hywvmNjY2ZGpqKu0ABQhgSMrFl/vBS4MTl8YWorKyMkkeyhtM7969K1WJBKIi4+Pj5fnRo0diTeQKzLkGdk5PT2/+663Eye0JCAgQ+0EaFJKtre1ly4XfcQIUELyO9w8ePECOvsMF/p9XHjNClqchBboiejYkUVFRoVu3bklvgRRgHBoaSmZmZiDyioGdrnynctLaAAor4ieAo3HhVOgr0dHR4h7W/2uuC+uPvvXZ358ZGxv/iHaLAGhUuKHgFjc3tz/YMb3c47X+998KbkifaGpq9rElf8VlAe319fWPOXDYtf13YZ3d2XrN7J5UBwcHzavs+Rvqp+RPxXle0QAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M0.0 0.0 L23.0 0.0 23.0 27.0 0.0 27.0 0.0 0.0" style="fill:url(#PatternID_8268_1)"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0157, 0.0, 0.0, 0.0191, 12.05, 13.5)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#999999"/>
+      <stop offset="1.0" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+</svg>

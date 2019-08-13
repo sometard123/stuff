@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="126.95px" width="459.5px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -36.5, 89.0)">
+    <path d="M187.85 -84.0 L65.5 31.85 60.8 26.85 183.15 -89.0 187.85 -84.0" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M134.1 -78.35 L40.1 10.65 36.5 6.8 130.5 -82.2 134.1 -78.35" fill="url(#gradient1)" fill-rule="evenodd" stroke="none"/>
+    <path d="M486.0 -53.25 L395.0 32.95 391.5 29.2 482.5 -56.95 486.0 -53.25" fill="url(#gradient2)" fill-rule="evenodd" stroke="none"/>
+    <path d="M496.0 -48.25 L405.0 37.95 401.5 34.2 492.5 -51.95 496.0 -48.25" fill="url(#gradient3)" fill-rule="evenodd" stroke="none"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(0.0727, -0.0688, 0.0029, 0.0031, 87.9, 9.35)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#ffffff"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0558, -0.0529, 0.0022, 0.0023, 54.2, -2.75)" gradientUnits="userSpaceOnUse" id="gradient1" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#ffffff"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0541, -0.0512, 0.0022, 0.0023, 404.7, 24.9)" gradientUnits="userSpaceOnUse" id="gradient2" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#ffffff"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(0.0541, -0.0512, 0.0022, 0.0023, 414.7, 29.9)" gradientUnits="userSpaceOnUse" id="gradient3" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#ffffff"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+</svg>

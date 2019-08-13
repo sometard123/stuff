@@ -1,0 +1,3 @@
+Looks like we couldn't send the 
+attack. Please check your internet 
+connection.

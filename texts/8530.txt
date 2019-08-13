@@ -1,0 +1,2 @@
+This player is in Pacifist Mode, they 
+are currently immune to attacks.

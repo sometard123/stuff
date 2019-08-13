@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="67.4px" width="60.4px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -1.6, 8.5)">
+    <path d="M59.2 42.45 L3.75 42.45 3.75 30.1 59.2 30.1 59.2 42.45" fill="#503112" fill-rule="evenodd" stroke="none"/>
+    <path d="M59.2 42.45 L3.75 42.45 3.75 30.1 59.2 30.1 59.2 42.45 Z" fill="none" stroke="#302010" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path d="M59.2 42.45 L3.75 42.45 3.75 40.5 59.2 40.5 59.2 42.45" fill="#86521e" fill-rule="evenodd" stroke="none"/>
+    <path d="M59.2 40.95 L3.75 40.95 3.75 30.1 59.2 30.1 59.2 40.95" fill="#a56525" fill-rule="evenodd" stroke="none"/>
+    <path d="M56.9 19.1 L61.0 19.1 61.0 57.9 56.9 57.9 56.9 19.1 M2.6 19.1 L6.7 19.1 6.7 57.9 2.6 57.9 2.6 19.1 M33.4 19.1 L33.4 57.9 29.3 57.9 29.3 19.1 33.4 19.1" fill="#d18334" fill-rule="evenodd" stroke="none"/>
+    <path d="M61.0 19.1 L61.0 57.9 56.9 57.9 56.9 19.1 M6.7 19.1 L6.7 57.9 2.6 57.9 2.6 19.1 M33.4 19.1 L33.4 57.9 29.3 57.9 29.3 19.1 33.4 19.1" fill="none" stroke="#242424" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M61.0 38.35 L61.0 57.9 56.9 57.9 56.9 38.35 61.0 38.35 M6.7 38.35 L6.7 57.9 2.6 57.9 2.6 38.35 6.7 38.35 M33.4 38.35 L33.4 57.9 29.3 57.9 29.3 38.35 33.4 38.35" fill="#6c6c6c" fill-rule="evenodd" stroke="none"/>
+    <path d="M56.9 38.35 L56.9 19.1 61.0 19.1 61.0 38.35 56.9 38.35 M2.6 38.35 L2.6 19.1 6.7 19.1 6.7 38.35 2.6 38.35 M29.3 38.35 L29.3 19.1 33.4 19.1 33.4 38.35 29.3 38.35" fill="#a6a6a6" fill-rule="evenodd" stroke="none"/>
+    <path d="M56.9 -8.5 L61.0 -8.5 61.0 37.1 56.9 37.1 56.9 -8.5 M2.6 -8.5 L6.7 -8.5 6.7 37.1 2.6 37.1 2.6 -8.5" fill="#a6a6a6" fill-rule="evenodd" stroke="none"/>
+  </g>
+</svg>

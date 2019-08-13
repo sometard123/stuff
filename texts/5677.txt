@@ -1,0 +1,5 @@
+You have not launched a Monkey v Monkey attack for 3 days. 
+--- RECORDSEPARATOR ---
+Would you like to enter pacifist mode? In pacifist mode, you 
+--- RECORDSEPARATOR ---
+cannot be attacked until you attack again.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="11.25px" width="5.65px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -8.95, 4.95)">
+    <path d="M11.2 1.35 L11.2 6.3 14.5 1.85 14.6 -3.55 Q12.8 -2.05 11.2 1.35" fill="#a2a2a2" fill-rule="evenodd" stroke="none">
+      <animate attributeName="fill" dur="2s" repeatCount="indefinite" values="#a2a2a2;#b7b7b8"/>
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="1.0;1.0"/>
+      <animate attributeName="d" dur="2s" repeatCount="indefinite" values="M11.2 1.35 L11.2 6.3 14.5 1.85 14.6 -3.55 Q12.8 -2.05 11.2 1.35;M8.95 -3.9 L8.95 1.05 14.5 0.05 14.5 -4.9 Q11.75 -5.1 8.95 -3.9"/>
+    </path>
+    <path d="M11.2 1.35 Q12.8 -2.05 14.6 -3.55 L14.5 1.85 11.2 6.3 11.2 1.35" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.0" stroke-width="1.0">
+      <animate attributeName="stroke" dur="2s" repeatCount="indefinite" values="#000000;#000001"/>
+      <animate attributeName="stroke-width" dur="2s" repeatCount="indefinite" values="0.0;0.0"/>
+      <animate attributeName="fill-opacity" dur="2s" repeatCount="indefinite" values="0.0;0.0"/>
+      <animate attributeName="d" dur="2s" repeatCount="indefinite" values="M11.2 1.35 Q12.8 -2.05 14.6 -3.55 L14.5 1.85 11.2 6.3 11.2 1.35;M8.95 -3.9 Q11.75 -5.1 14.5 -4.9 L14.5 0.05 8.95 1.05 8.95 -3.9"/>
+    </path>
+  </g>
+</svg>
