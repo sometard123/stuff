@@ -438,7 +438,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          {
             _loc1_ = _loc1_ * 2;
          }
-         var _loc2_:Number = calculateSlidingCashNerfFactor();
+         var _loc2_:Number = calculateSlidingCashNerfFactor(); //changing cash from bloons
          if(RoundGeneratorData.isHardcore)
          {
             if(_loc1_ > 26 + _loc2_)
@@ -583,7 +583,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          rotation = Math.atan2(_loc10_.y - _loc9_.y,_loc10_.x - _loc9_.x);
       }
       
-      public function setType(param1:int) : void
+      public function setType(param1:int) : void //freeplay changes
       {
          var _loc3_:int = 0;
          var _loc4_:Number = NaN;
@@ -1506,7 +1506,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
             if(param1.type < MOAB)
             {
                _loc9_ = 0;
-               this._popCountToAddFromSplit = popsByType[childTypeByType[param1.type]];
+               this._popCountToAddFromSplit = popsByType[childTypeByType[param1.type]]; //cash awarded in freeplay?
                if(false == param1.cashAwarded[param1.type])
                {
                   _loc9_ = this._popCountToAddFromSplit;
