@@ -1,0 +1,23 @@
+package ninjakiwi.monkeyTown.btdModule.levels.levelDefs
+{
+   import ninjakiwi.monkeyTown.btdModule.levels.tiles.ArcTile;
+   import ninjakiwi.monkeyTown.btdModule.levels.tiles.StraightTile;
+   import ninjakiwi.monkeyTown.btdModule.levels.tiles.Tile;
+   import ninjakiwi.monkeyTown.btdModule.math.Vector2;
+   
+   public class MOABGraveyardDef extends LevelDef
+   {
+       
+      
+      public function MOABGraveyardDef()
+      {
+         super();
+         id = "MOABGraveyard";
+         name = "MOABGraveyard";
+         assetClassName = "assets.maps.MOABGraveyard";
+         terrainClassName = "assets.maps.MOABGraveyardTerrain";
+         swfName = "MOABGraveyard.swf";
+         mainPath = Vector.<Tile>([new StraightTile().ini_startPoint(new Vector2(900,417)).ini_endPoint(new Vector2(759,417)).ini_nextTileIndices(Vector.<int>([1])).ini_transitionType(0).ini_layer(0),new StraightTile().ini_startPoint(new Vector2(759,417)).ini_endPoint(new Vector2(701,381)).ini_nextTileIndices(Vector.<int>([2])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(661.828902851619,444.108989850169)).ini_baseStart(new Vector2(701,381)).ini_baseEnd(new Vector2(607,394)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([3])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(486.430779929936,283.809908451319)).ini_baseStart(new Vector2(607,394)).ini_baseEnd(new Vector2(523,443)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([4])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(503.720676461014,359.074850016277)).ini_baseStart(new Vector2(523,443)).ini_baseEnd(new Vector2(421,383)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([5])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(521.65757271065,353.886994314719)).ini_baseStart(new Vector2(421,383)).ini_baseEnd(new Vector2(441,287)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([6])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(308.073971773136,176.768285909322)).ini_baseStart(new Vector2(441,287)).ini_baseEnd(new Vector2(471,234)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([7])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(388.525573701882,205.028859924615)).ini_baseStart(new Vector2(471,234)).ini_baseEnd(new Vector2(453,146)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([8])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(355.920460952075,234.880116365974)).ini_baseStart(new Vector2(453,146)).ini_baseEnd(new Vector2(285,124)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([9])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(377.126494622681,268.034546688227)).ini_baseStart(new Vector2(285,124)).ini_baseEnd(new Vector2(243,162)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([10])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(194.380189824646,123.563302265416)).ini_baseStart(new Vector2(243,162)).ini_baseEnd(new Vector2(157,173)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([11])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(175.256317607281,148.855337826491)).ini_baseStart(new Vector2(157,173)).ini_baseEnd(new Vector2(147,138)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([12])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(-73.4902217617488,53.2934264850934)).ini_baseStart(new Vector2(147,138)).ini_baseEnd(new Vector2(159,95)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([13])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(121.255027127059,88.228904536223)).ini_baseStart(new Vector2(159,95)).ini_baseEnd(new Vector2(99,57)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([14])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(873.962061351763,1144.44941513568)).ini_baseStart(new Vector2(99,57)).ini_baseEnd(new Vector2(47,96)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([15])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(26.4105345072702,69.8960055573499)).ini_baseStart(new Vector2(47,96)).ini_baseEnd(new Vector2(-5,59)).ini_reflex(false).ini_nextTileIndices(Vector.<int>([16])).ini_transitionType(0).ini_layer(0),new ArcTile().ini_baseCentre(new Vector2(-35.6082987520122,48.3822821376771)).ini_baseStart(new Vector2(-5,59)).ini_baseEnd(new Vector2(-68,49)).ini_reflex(true).ini_nextTileIndices(Vector.<int>([])).ini_transitionType(0).ini_layer(0)]);
+      }
+   }
+}

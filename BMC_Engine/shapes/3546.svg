@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="52.05px" width="58.85px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 29.45, 23.75)">
+    <path d="M28.4 -15.35 L28.4 19.9 21.3 27.3 -26.95 27.3 -26.95 -22.75 21.3 -22.75 28.4 -15.35 Z" fill="none" stroke="#2e3138" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M21.3 -22.75 L28.4 -15.35 28.4 19.9 21.3 27.3 21.3 -22.75" fill="#4e5b72" fill-rule="evenodd" stroke="none"/>
+    <path d="M-26.95 -22.75 L21.3 -22.75 21.3 27.3 -26.95 27.3 -26.95 -22.75" fill="#7987a1" fill-rule="evenodd" stroke="none"/>
+    <path d="M-28.45 -16.55 L7.45 -16.55 12.7 -11.05 12.7 15.15 7.45 20.65 -28.45 20.65 -28.45 -16.55 Z" fill="none" stroke="#2e3138" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M7.45 -16.55 L12.75 -11.05 12.75 15.15 7.45 20.65 7.45 -16.55" fill="#4e5b72" fill-rule="evenodd" stroke="none"/>
+    <path d="M-28.45 -16.55 L7.45 -16.55 7.45 20.65 -28.45 20.65 -28.45 -16.55" fill="#7987a1" fill-rule="evenodd" stroke="none"/>
+  </g>
+</svg>

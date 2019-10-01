@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="49.6px" width="92.95px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 41.9, -87.55)">
+    <path d="M16.65 133.15 L-2.85 132.55 Q-23.15 127.85 -37.7 115.7 L-37.85 106.65 -37.75 97.35 Q6.15 86.5 46.75 95.9 L47.05 113.95 Q33.75 126.95 16.65 133.15" fill="#3f434f" fill-rule="evenodd" stroke="none"/>
+    <path d="M16.65 133.15 L-2.85 132.55 Q-23.15 127.85 -37.7 115.7 L-37.85 106.65 -37.75 97.35 Q6.15 86.5 46.75 95.9 L47.05 113.95 Q33.75 126.95 16.65 133.15 Z" fill="none" stroke="#1e2027" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.0"/>
+    <path d="M16.65 133.15 L-2.85 132.55 Q-23.15 127.85 -37.7 115.7 L-37.85 106.65 -37.75 97.35 Q6.15 86.5 46.75 95.9 L47.05 113.95 Q33.75 126.95 16.65 133.15" fill="#292c35" fill-rule="evenodd" stroke="none"/>
+    <path d="M-37.7 115.75 L-37.65 97.4 Q4.55 89.9 46.8 95.95 L47.1 113.95 Q28.85 114.5 16.7 133.2 L-2.8 132.6 Q-18.2 112.45 -37.7 115.75" fill="#1e2027" fill-rule="evenodd" stroke="none"/>
+  </g>
+</svg>
