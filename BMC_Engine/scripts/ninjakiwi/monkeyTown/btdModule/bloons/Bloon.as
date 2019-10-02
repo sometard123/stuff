@@ -87,7 +87,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public static const BOSS_DREADBLOON:int = 18;
       
-      public static const BLOON_COUNT:int = 15;
+      public static const BLOON_COUNT:int = 15; //?
       
       public static var burstsThisProcess:int = 0;
       
@@ -202,7 +202,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public var sabotaged:Boolean = false;
       
-      public var damageMultipler:Number = 1.0;
+      public var damageMultipler:Number = 1.0; //?
       
       protected var _tile:Tile;
       
@@ -232,7 +232,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public var isMovingBackward:Boolean = false;
       
-      public var isShielded:Boolean = false;
+      public var isShielded:Boolean = false; //?
       
       public var rbe:int;
       
@@ -360,7 +360,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          super();
       }
       
-      public static function defaultBoolVector(param1:Boolean = false) : Vector.<Boolean>
+      public static function defaultBoolVector(param1:Boolean = false) : Vector.<Boolean> //probably has to do with rewarding cash
       {
          var _loc2_:Vector.<Boolean> = new Vector.<Boolean>();
          var _loc3_:int = 0;
@@ -474,9 +474,9 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          return cashChanceModifier * 1.1;
       }
       
-      public static function setMOABHealthModifier(param1:Number) : void
+      public static function setMOABHealthModifier(param1:Number) : void //probably scaling moab health based on city, param1 is city multiplier?
       {
-         maxHealthByType = maxHealthByTypeDefault.slice();
+         maxHealthByType = maxHealthByTypeDefault.slice(); 
          var _loc2_:int = MOAB;
          while(_loc2_ <= DDT)
          {
@@ -485,7 +485,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          }
       }
       
-      public static function furtherScaleMOABHealth(param1:Number) : void
+      public static function furtherScaleMOABHealth(param1:Number) : void //similar to setMOABHealthModifier
       {
          var _loc2_:int = MOAB;
          while(_loc2_ <= DDT)
