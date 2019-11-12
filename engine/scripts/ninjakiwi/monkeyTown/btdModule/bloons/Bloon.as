@@ -226,7 +226,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public var isBoss:Boolean = false;
       
-      public var isHuge:Boolean = false;
+      public var isHuge:Boolean = false; //huge means is either moab or boss
       
       public var isMoving:Boolean = true;
       
@@ -590,7 +590,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          this.type = param1;
          this.isMOAB = isMOABFlags[param1];
          this.isBoss = isBossFlags[param1];
-         this.isHuge = this.isMOAB || this.isBoss;
+         this.isHuge = this.isMOAB || this.isBoss; //yeah, huge means either moab or boss
          this.health = this.maxHealth = maxHealthByType[param1];
          this.extraDamagePrecision = 0;
          var _loc2_:int = Main.instance.game.waveIndex + 1;
@@ -627,7 +627,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
             this.wasWhite = false;
          }
          this.calculateImmunity();
-         if(this.isHuge)
+         if(this.isHuge) //unsure what this is
          {
             z = this.moabLayer + this.zOffset;
          }
@@ -641,7 +641,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          }
       }
       
-      public function get zOffset() : Number
+      public function get zOffset() : Number //tard what
       {
          return this.id * -1.0e-6 - 0.001;
       }
@@ -698,13 +698,13 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          this.glueSoak = false;
       }
       
-      public function completePath() : void
+      public function completePath() : void //leaking
       {
          this.level.bloonLeaked(this);
          this.destroy();
       }
       
-      override public function process(param1:Number) : void
+      override public function process(param1:Number) : void //processes status effects
       {
          var _loc4_:Vector.<Vector.<Bloon>> = null;
          var _loc5_:Vector.<Bloon> = null;
@@ -834,7 +834,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          {
             _loc2_ = _loc2_ * 0.5;
          }
-         if(this.isMoving || this.isMovingBackward)
+         if(this.isMoving || this.isMovingBackward) //calculate movement
          {
             this.tileProgress = this.tileProgress + this.progressStep * param1 * _loc2_ * this.permaFrostSpeedScale * this.windDirectionSpeedScale;
             this.overallProgress = this.overallProgress + this.progressStep * param1 * _loc2_ * this.permaFrostSpeedScale * this.windDirectionSpeedScale;
@@ -844,7 +844,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
                return;
             }
          }
-         if(this.isHuge && this.lastPosition.x != x || this.lastPosition.y != y)
+         if(this.isHuge && this.lastPosition.x != x || this.lastPosition.y != y) //if it's a moab/boss and moving, i think it processes moab roatation
          {
             _loc11_ = Math.atan2(y - this.lastPosition.y,x - this.lastPosition.x);
             if(this.isMovingBackward)
@@ -886,7 +886,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          {
             if(!this.iced)
             {
-               if(this.regenCeiling != this.type)
+               if(this.regenCeiling != this.type) //controls when to regrow
                {
                   this.regenCountDown = this.regenCountDown - param1;
                   if(this.regenCountDown <= 0)
@@ -899,7 +899,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          }
       }
       
-      public function catchIce(param1:Bloon) : void
+      public function catchIce(param1:Bloon) : void //sets status effects upon freezing?
       {
          if(this.type == WHITE || this.type == ZEBRA)
          {
@@ -930,7 +930,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          }
       }
       
-      public function hitPreviously(param1:Projectile) : Boolean
+      public function hitPreviously(param1:Projectile) : Boolean //prevents one projectile from popping the same bloon twice
       {
          var _loc2_:uint = 0;
          if(param1.def.canMultiEffect)
@@ -1255,7 +1255,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          this.degrade(this.type + 1,param1,param2,param3);
       }
       
-      public function degrade(param1:int, param2:Number, param3:Tower, param4:Boolean = true) : void
+      public function degrade(param1:int, param2:Number, param3:Tower, param4:Boolean = true) : void //popping bloons
       {
          var _loc10_:Burst = null;
          var _loc11_:Boolean = false;
@@ -1562,7 +1562,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
          return 0;
       }
       
-      protected function inheritStats(param1:Bloon, param2:Bloon) : void
+      protected function inheritStats(param1:Bloon, param2:Bloon) : void //inherits camo, glue, ice, etc
       {
          var _loc3_:uint = 0;
          var _loc4_:Boolean = false;
