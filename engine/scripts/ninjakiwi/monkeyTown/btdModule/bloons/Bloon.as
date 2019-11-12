@@ -87,7 +87,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public static const BOSS_DREADBLOON:int = 18;
       
-      public static const BLOON_COUNT:int = 15; //?
+      public static const BLOON_COUNT:int = 15; //number of bloon types?
       
       public static var burstsThisProcess:int = 0;
       
@@ -232,7 +232,7 @@ package ninjakiwi.monkeyTown.btdModule.bloons
       
       public var isMovingBackward:Boolean = false;
       
-      public var isShielded:Boolean = false; //?
+      public var isShielded:Boolean = false; //for dreadbloon only
       
       public var rbe:int;
       
